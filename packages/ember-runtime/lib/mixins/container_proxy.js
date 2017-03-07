@@ -57,7 +57,7 @@ let containerProxyMixin = {
 
    The default behaviour is for lookup to return a singleton instance.
    The singleton is scoped to the container, allowing multiple containers
-   to all have their own locally scoped singletons. It will go through fill instence lifecycle.
+   to all have their own locally scoped singletons. It will go through full instance's lifecycle.
 
    ```javascript
    let registry = new Registry();
